@@ -239,27 +239,14 @@
 
 /* Alerte d'une notification */
 .notification.alert {
-    position: fixed;
-    width: 350px;
-    align-items: center;
-    z-index: 99 ;
-    bottom: 56px ;
-    right: 10px;
-    background: var(--neutralDark-l);
-  border:1px solid white;
-    transform: translateY(100%);
-    opacity: 0 ;
-    filter: blur(5px);
-    transition: all 5s ease-in-out;
-    color: var(--whiter);
-    font-size: 12px;
+/*voir css*/
 }
 
 .notification.alert.up {
   transform: translateY(0%);
   opacity: 1;
   filter: blur(0);
-  transition: all .5s ease-in-out;
+  transition: all 8s ease-in-out;
 }
 
 .alert_close {
