@@ -245,7 +245,7 @@
     z-index: 99 ;
     bottom: 56px ;
     right: 10px;
-    background: var(--neutralDark);
+    background: var(--neutralDark-l);
   border:1px solid white;
     transform: translateY(100%);
     opacity: 0 ;
