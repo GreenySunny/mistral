@@ -239,19 +239,19 @@
 
 /* Alerte d'une notification */
 .notification.alert {
-    position: fixed !important;
-    width: 350px !important;
-    align-items: center !important;
-    z-index: 99 !important;
-    bottom: 56px !important;
-    right: 10px !important;
-    background: var(--neutralDarker) !important;
-    transform: translateY(100%) !important;
-    opacity: 0 !important;
-    filter: blur(5px) !important;
-    transition: all 5s ease-in-out !important;
-    color: var(--whiter) !important;
-    font-size: 12px !important;
+    position: fixed;
+    width: 350px;
+    align-items: center;
+    z-index: 99 ;
+    bottom: 56px ;
+    right: 10px;
+    background: var(--neutralDarker);
+    transform: translateY(100%);
+    opacity: 0 ;
+    filter: blur(5px);
+    transition: all 5s ease-in-out;
+    color: var(--whiter);
+    font-size: 12px;
 }
 
 .notification.alert.up {
