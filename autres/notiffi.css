@@ -245,7 +245,8 @@
     z-index: 99 ;
     bottom: 56px ;
     right: 10px;
-    background: var(--neutralDarker);
+    background: var(--neutralDark);
+  border:1px solid white;
     transform: translateY(100%);
     opacity: 0 ;
     filter: blur(5px);
