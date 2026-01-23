@@ -221,15 +221,15 @@
 
 /* Bouton de suppression de la notification */
 .notif_close {
-  background: transparent;
-  align-self: start;
-  font-size: 12px;
-  line-height: 0;
-  opacity: 0;
-  border-radius: 100px;
-  aspect-ratio: 1;
-  padding: 2px;
-  transition: all .3s;
+    background: transparent !important;
+    align-self: start;
+    font-size: 18px;
+    line-height: 0;
+    opacity: 0;
+    border-radius: 100px;
+    aspect-ratio: 1.5;
+    padding: 2px !important;
+    transition: all .3s;
 }
 
 /* Affiche le bouton de suppression au survol de la notification */
