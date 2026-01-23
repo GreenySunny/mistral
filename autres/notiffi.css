@@ -262,8 +262,7 @@
 }
 
 .alert_close {
- background: transparent !important;
-    align-self: start !important;
+  align-self: start !important;
     font-size: 18px !important;
     line-height: 0 !important;
     border-radius: 100px !important;
