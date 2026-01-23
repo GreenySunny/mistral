@@ -262,10 +262,11 @@
 }
 
 .alert_close {
-  background: var(--neutral);
-  font-size: 18px;
-  line-height: 0;
-  border-radius: 100px;
-  aspect-ratio: 1;
-  padding: 2px;
+ background: transparent !important;
+    align-self: start;
+    font-size: 18px;
+    line-height: 0;
+    border-radius: 100px;
+    aspect-ratio: 1;
+    padding: 2px !important;
 }
