@@ -239,6 +239,7 @@
 
 /* Alerte d'une notification */
 .notification.alert {
+   filter: blur(0);
 /*voir css*/
 }
 
