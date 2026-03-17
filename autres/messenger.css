@@ -23,7 +23,7 @@
   grid-template-rows: max-content max-content 1fr;
   color: var(--textColor);
   font-size: var(--FAM-fontSize);
-  background: var(--neutralDark);
+  background: var(--neutralDark) !important;
   position: fixed;
   height: 100%;
   width: 90%;
