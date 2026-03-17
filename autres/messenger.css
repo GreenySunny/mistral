@@ -23,7 +23,7 @@
   grid-template-rows: max-content max-content 1fr;
   color: var(--textColor);
   font-size: var(--FAM-fontSize);
-  background: var(--neutral);
+  background: var(--neutralDark);
   position: fixed;
   height: 100%;
   width: 90%;
@@ -1183,8 +1183,7 @@ blockquote.FAM-codebox > div {
   top: 0;
   bottom: 0;
   width: 20%;
-  background: linear-gradient(-90deg, var(--neutral) 20%,
- color-mix(in srgb, var(--neutral), transparent 100%) 100%);
+  background: unset;
   z-index: 5;
   pointer-events: none;
 }
