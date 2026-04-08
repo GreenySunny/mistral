@@ -57,7 +57,8 @@
   /* taille du Menu */
   width: var(--menuSize);
   position: fixed;
-  z-index: 98;
+  z-index: 230 !important;
+  opacity:0.85 !important;
   top: 0;
   height: 100%;
   right: calc(var(--menuSize) * -1);
