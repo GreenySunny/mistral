@@ -58,7 +58,6 @@
   width: var(--menuSize);
   position: fixed;
   z-index: 240 !important;
-  opacity:0.85 !important;
   top: 0;
   height: 100%;
   right: calc(var(--menuSize) * -1);
@@ -66,7 +65,7 @@
   flex-direction: column;
   gap: 10px;
   align-items: start;
-  background: var(--neutralDarker-o);
+  background:#D1BEA2 !important;
   padding: 15px;
   padding-top: 50px;
   opacity: 0;
@@ -78,7 +77,8 @@
 #notiffi_panel.open {
   right: 0;
   visibility: visible;
-  opacity: 1;
+  opacity:0.87 !important;
+    z-index: 240 !important;
 }
 
 /* Conteneur des notifications */
